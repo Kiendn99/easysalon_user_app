@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class BaseService extends GetConnect {
+class ApiBaseService extends GetConnect {
   @override
   void onInit() {
     // add your local storage here to load for every request
